@@ -78,7 +78,7 @@ include_once 'database.php';
                       $_SESSION['role'] = $row['role'];
                        
 
-                      //$_SESSION['user'] = $row['fname']." ".$row['lname'];
+                      $_SESSION['user'] = $row['fname']." ".$row['lname'];
 
 
 
