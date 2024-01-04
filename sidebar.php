@@ -20,14 +20,14 @@
         <li id="stat"><a href="./"><i class="fa fa-bar-chart-o"></i> <span>Statistics</span> </a></li>
 
         <?php if($_SESSION['role']=='Teacher'){ ?>
-        <li id="new"><a href="./student.php"><i class="fa fa-users"></i> <span>Student</span> </a></li>
-        <li id="teacher"><a href="./teacher.php"><i class="fa  fa-black-tie"></i> <span>Teacher</span> </a></li>
-        <li id="parent"><a href="./parent.php"><i class="fa  fa-female"></i> <span>Parents</span> </a></li>
-        <li id="subject"><a href="./subject.php"><i class="fa fa-book"></i> <span>Subject</span> </a></li>
-        <li id="class"><a href="./class.php"><i class="fa fa-bank"></i> <span>Class Room</span> </a></li>
-        <li id="schedule"><a href="./schedule.php"><i class="fa fa-calendar-o"></i> <span>Schedule</span> </a></li>
-        <li id="attendance"><a href="./attendance.php"><i class="fa  fa-check"></i> <span>Attendance</span> </a></li>
-        <li id="exam"><a href="./exam.php"><i class="fa fa-line-chart"></i> <span>Exam</span> </a></li>
+        <li id="new"><a href="./DNS_LOG.php"><i class="fa fa-users"></i> <span>Student</span> </a></li>
+        <li id="teacher"><a href="./ANYCAST.php"><i class="fa  fa-black-tie"></i> <span>Teacher</span> </a></li>
+        <li id="parent"><a href="./UNICAST.php"><i class="fa  fa-female"></i> <span>Parents</span> </a></li>
+        <li id="subject"><a href="./IP4_ASN.php"><i class="fa fa-book"></i> <span>Subject</span> </a></li>
+        <li id="class"><a href="./IP6_ASN.php"><i class="fa fa-bank"></i> <span>Class Room</span> </a></li>
+        <li id="schedule"><a href="./Root_Server.php"><i class="fa fa-calendar-o"></i> <span>Schedule</span> </a></li>
+        <li id="attendance"><a href="./City_Name.php"><i class="fa  fa-check"></i> <span>Attendance</span> </a></li>
+        <li id="exam"><a href="./Country_Name.php"><i class="fa fa-line-chart"></i> <span>Exam</span> </a></li>
          <li id="examresults"><a href="./examresults.php"><i class="fa fa-graduation-cap"></i> <span>Exam Results</span> </a></li>
         <li id="user"><a href="./user.php"><i class="fa fa-user-plus"></i> <span>Users</span> </a></li>
         <li id="notice"><a href="./notice.php"><i class="fa fa-envelope-o"></i> <span>Notice</span> </a></li>
